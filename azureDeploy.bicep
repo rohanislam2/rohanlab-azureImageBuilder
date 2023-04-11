@@ -92,5 +92,6 @@ module imageTemplate './modules/imageTemplate.bicep' = {
   }
   dependsOn: [
     imagedef
+    identity
   ]
 }
